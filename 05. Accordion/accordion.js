@@ -33,7 +33,7 @@ async function solution() {
             const content = extraTextJson.content;
             if(button.textContent === "More") {
                 par.textContent = content;
-                button.textContent = "Hide";
+                button.textContent = "Less";
                 extra.style = "display: block";
             } else {
                 button.textContent = "More";
