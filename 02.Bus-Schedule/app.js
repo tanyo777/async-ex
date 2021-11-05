@@ -3,7 +3,7 @@ function solve() {
   let departInfo = document.getElementById("depart");
   let arriveInfo = document.getElementById("arrive");
 
-  let next = "";
+  let next = "depot";
   let stopName = "";
   async function depart() {
     try {
